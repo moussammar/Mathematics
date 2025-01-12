@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #234123;
+    color: #FFFFFF;
+}
+*{
+    box-sizing: border-box;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+nav{
+    background-color: #043204;
+    top: 0;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+nav ul{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+nav ul li{
+    list-style-type: none ;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+nav a{
+    color:white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size:140%;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color:black;
+}
+footer{
+    background-color: #043204;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+}
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:active{
+    color:black;
+}
+#preloader{
+    position:fixed;
+    z-index:100;
+    width: 100vw;
+    height: 100vh;
+    background-image:url("assets/preloader.gif") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero_theories{
+    margin-top: 95px;
+    width: 90vw;
+    height: 80vh;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+.theories_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.images_theories_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.images_theories_wrapper > img {
+    margin-right: 40px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 0.3px solid white;
+}
+.images_theories_wrapper p{
+    font-size: 22px;
+}
+.formulas{
+    width: 200px;
+}

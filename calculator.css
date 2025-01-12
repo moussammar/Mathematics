@@ -1,0 +1,138 @@
+body{
+    /* margin: 0;
+    padding: 0; */
+    background-color: #234123;
+    color: #FFFFFF;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+*{
+    box-sizing: border-box;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+nav{
+    background-color: #043204;
+    top: 0;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+nav ul{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+nav ul li{
+    list-style-type: none ;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+nav a{
+    color:white;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size:140%;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:active{
+    color:black;
+}
+footer{
+    background-color: #043204;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer p{
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+}
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer a:active{
+    color:black;
+}
+#preloader{
+    position:fixed;
+    z-index:100;
+    width: 100vw;
+    height: 100vh;
+    background-image:url("assets/preloader.gif") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.container{
+    box-shadow: 7px 7px 7px rgb(0,0,0,0.4);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.screen{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+    height: 80px;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin: 2px;
+}
+.buttons_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+button{
+    padding: 7px;
+    background-color: whitesmoke;
+    margin: 0;
+    border: 0.05px solid gray;
+    width: 60px;
+    height: 60px;
+    border-radius: 3px;
+    margin-bottom: 3px;
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(141, 134, 134);
+}
+.output{
+    text-align: end;
+    font-size: 24px;
+}
+.input{
+    text-align: left;
+    font-size: 24px;
+}
