@@ -77,7 +77,6 @@ footer a:active{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 #hero_theories{
     margin-top: 95px;
     width: 90vw;
@@ -113,4 +112,106 @@ footer a:active{
 }
 .formulas{
     width: 200px;
+}
+.mar1{
+    margin-left: 200px;
+}
+.mar2{
+    margin-left: 100px;
+    transform: translateY(-34px);
+}
+.mar3{
+    margin-left: 60px;
+}
+.mar4{
+    margin-left: 100px;
+}
+
+/* Responsive website*/
+@media only screen and (max-width: 450px){
+    body{
+        width: 100vw;
+    }
+    nav{
+        background-color: #043204;
+        width: 100vw;
+        padding-left: 6px;
+        padding-right: 6px;
+        justify-content: flex-start;
+    }
+    nav ul{
+        gap: 9.5px;
+        margin-right: 10px;
+    }
+    nav ul li{
+        font-size: 10px;
+    }
+    #logo{
+        width: 50px;
+        height: 40px;
+    }
+    footer {
+        width: 100vw;
+    }
+    footer p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 4px;
+        margin-left: 4px;
+        width: 80vw;
+    }
+    #hero_theories{
+        margin-top: 65px;
+        width: 92vw;
+        height: 50vh;
+        margin-left: 14px;
+        margin-right: 14px;
+        border-radius: 20px;
+    }
+    .theories_wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 6px;
+        width: 98vw;
+    }
+    .images_theories_wrapper{
+        margin: 4px;
+        width: 100vw;
+    }
+    .images_theories_wrapper > img {
+        margin-right: 14px;
+        margin-left: 6px;
+        border-radius: 15px;
+        width: 100px;
+        height: 260px;
+        border: 0.1px solid white;
+    }
+    .images_theories_wrapper p{
+        font-size: 13px;
+        width: 58vw;
+        margin-right: 12px;
+    }
+    .formulas{
+        width: 94px;
+    }
+    .mar1{
+        margin-left: 0px
+    }
+    .mar2{
+        margin-left: 0.2px;
+        transform: translateY(-8px);
+    }
+    .mar3{
+        margin-left: 0px;
+        width: 80px;
+    }
+    .mar4{
+        margin-left: 60px;
+    }
+    h2{
+        font-size: 16px;
+        margin: 0;
+        width: 50px;
+    }
 }
