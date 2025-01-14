@@ -115,7 +115,8 @@ footer a:active{
 button{
     padding: 7px;
     background-color: whitesmoke;
-    margin: 0;
+    margin-left: 1.1px;
+    margin-right: 1.1px;
     border: 0.05px solid gray;
     width: 60px;
     height: 60px;
@@ -135,4 +136,53 @@ button:active{
 .input{
     text-align: left;
     font-size: 24px;
+}
+
+
+
+/* Responsive website*/
+@media only screen and (max-width: 450px){
+    body{
+        width: 100vw;
+    }
+    nav{
+        background-color: #043204;
+        width: 100vw;
+        padding-left: 6px;
+        padding-right: 6px;
+        justify-content: flex-start;
+    }
+    nav ul{
+        gap: 9.5px;
+        margin-right: 10px;
+    }
+    nav ul li{
+        font-size: 10px;
+    }
+    #logo{
+        width: 50px;
+        height: 40px;
+    }
+    footer {
+        width: 100vw;
+    }
+    footer p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 4px;
+        margin-left: 4px;
+        width: 80vw;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    button{
+        width: 55.5px;
+        height: 54px;
+        border-radius: 3px;
+        margin-bottom: 3px;
+    }
 }
