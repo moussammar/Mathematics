@@ -233,7 +233,7 @@ footer a:active{
     #intro_title{
         width: 42vw;
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 5vw;
         margin-bottom: 20px;
         margin-top: 0px;
     }
@@ -282,7 +282,7 @@ footer a:active{
         text-align: center;
     }
     .hero_section{
-        height: 48vh;
+        height: 46vh;
         width: 94vw;
         position: relative;
         margin-top: 40px;
