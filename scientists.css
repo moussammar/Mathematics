@@ -142,3 +142,72 @@ footer a:active{
     display: inline-block;
     animation: backInLeft 1s ease-out forwards;
   }
+
+
+/*Responsive*/
+@media only screen and (max-width: 450px){
+    body{
+        width: 100vw;
+    }
+    nav{
+        background-color: #043204;
+        width: 100vw;
+        padding-left: 6px;
+        padding-right: 6px;
+        justify-content: flex-start;
+    }
+    nav ul{
+        gap: 9px;
+        margin-right: 10px;
+    }
+    nav ul li{
+        font-size: 10px;
+    }
+    #logo{
+        width: 50px;
+        height: 40px;
+    }
+    footer {
+        width: 100vw;
+    }
+    footer p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 4px;
+        margin-left: 4px;
+        width: 80vw;
+    }
+    #scientists_title{
+        font-size: 13px;
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 70px;
+        margin-bottom: 20px;
+    }
+    .scientists_wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .sci_images_wrapper{
+        margin: 6px;
+    }
+    .sci_images_wrapper img {
+        margin-right: 16px;
+        border-radius: 15px;
+        width: 100px;
+        height: 56vh;
+        border: 0.1px solid white;
+    }
+    .sci_images_wrapper p{
+        font-size: 12px;
+    }
+    #scientists{
+        font-size: 14px;
+    }
+    #conclusion{
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 24px;
+    }
+}
