@@ -32,13 +32,12 @@ nav ul{
 nav ul li{
     list-style-type: none ;
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 24px;
 }
 nav a{
     color:white;
     margin-bottom: 10px;
     text-decoration: none;
-    font-size:140%;
 }
 nav a:hover{
     text-decoration: underline;
@@ -114,6 +113,8 @@ footer a:active{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 .image_wrapper img{
     width: 300px;
@@ -197,3 +198,101 @@ footer a:active{
 
 
 /* Responsive website*/
+@media only screen and (max-width: 450px){
+    body{
+        width: 100vw;
+    }
+    nav{
+        background-color: #043204;
+        width: 100vw;
+        padding-left: 6px;
+        padding-right: 6px;
+        justify-content: flex-start;
+    }
+    nav ul{
+        gap: 8px;
+        margin-right: 10px;
+    }
+    nav ul li{
+        font-size: 14px;
+    }
+    #logo{
+        width: 50px;
+        height: 40px;
+    }
+    footer {
+        width: 100vw;
+    }
+    footer p{
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 4px;
+        margin-left: 4px;
+        width: 80vw;
+    }
+    #intro_title{
+        width: 42vw;
+        font-size: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+    #discover_title{
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 26px;
+    }
+    .wrapper{
+        justify-content: flex-start;
+        width: 100vw;
+    }
+    #hero_img{
+        display: none;
+    }
+    .wrapper p{
+        font-size: 15px;
+        margin-left: 22px;
+        margin-right: 20px;
+        margin-top: 34px;
+        line-height: 20px;
+        width: 100vw;
+        letter-spacing: 0.8px;
+    }
+    .container{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .image_wrapper img{
+        width: 84px;
+        height: 84px;
+        margin: 6px;
+        border-radius: 50%;
+        border: 0.1px solid white;
+    }
+    .image_wrapper a{
+        color: #FFFFFF;
+        background-color:  #043204;
+        text-decoration: none;
+        padding: 4px;
+        border: 0.3px solid white;
+        border-radius: 15px;
+        margin: 8px;
+        font-size: 8px;
+        text-align: center;
+    }
+    .hero_section{
+        height: 48vh;
+        width: 94vw;
+        position: relative;
+        margin-top: 40px;
+        margin-bottom: 6px;
+    }
+    #calculate_now{
+        padding: 4px;
+        border: 0.1px solid white;
+        border-radius: 25px;
+        font-size: 14px;
+        margin-left: 8vw;
+    }
+}
