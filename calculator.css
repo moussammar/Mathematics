@@ -92,7 +92,6 @@ footer a:active{
     margin-bottom: 100px;
 }
 .container{
-    box-shadow: 7px 7px 7px rgb(0,0,0,0.4);
     border-radius: 8px;
     background-color: #FFFFFF;
 }
@@ -178,6 +177,8 @@ button:active{
         justify-content: center;
         margin-top: 30px;
         margin-bottom: 30px;
+        width: 100vw;
+        height: 94vh;
     }
     button{
         width: 55.5px;
