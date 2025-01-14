@@ -46,6 +46,8 @@ function calculate(){
     }
     else if(button_text === 'Ans'){
         eqt.innerText += ans;
+    } else if(button_text === 'π'){
+        eqt.innerText = Math.PI;
     }
     else {
         eqt.innerText += button_text;
